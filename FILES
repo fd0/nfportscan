@@ -1,20 +1,19 @@
 The following files are new:
-* convert.{c,h}
-* list.{c,h}
-* nfportscan.c
-* version.h
-* Makefile
+* src/convert.{c,h}
+* src/list.{c,h}
+* src/nfportscan.c
+* src/version.h
 * README
 * FILES
 
 The following files were taken from the nfdump project:
-* file.{c,h}
-* ipconv.{c,h}
-* nfcommon.{c,h}
-* nfdump.h
-* nffile.h
-* nftree.{c,h}
-* rbtree.h
-* scanner.l
-* grammer.y
-* util.{c,h}
+* src/file.{c,h}
+* src/ipconv.{c,h}
+* src/nfcommon.{c,h}
+* src/nfdump.h
+* src/nffile.h
+* src/nftree.{c,h}
+* src/rbtree.h
+* src/scanner.l
+* src/grammer.y
+* src/util.{c,h}

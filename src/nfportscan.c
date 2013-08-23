@@ -59,10 +59,7 @@
 #include "nftree.h"
 #include "convert.h"
 
-#include "version.h"
-#ifndef VERSION
-	#define VERSION "(unknown, compiled from git)"
-#endif
+#include "config.h"
 
 #define DEFAULT_TIMEFORMAT "%d.%m.%y %H:%M:%S"
 
@@ -600,7 +597,7 @@ int main(int argc, char *argv[]) {
 				break;
 
 			case 'V':
-				printf("nfportscan " VERSION ", compiled at " __DATE__ " " __TIME__ "\n");
+				printf("nfportscan " PACKAGE_VERSION ", compiled at " __DATE__ " " __TIME__ "\n");
 				exit(0);
 				break;
 
